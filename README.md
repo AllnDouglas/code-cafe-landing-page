@@ -22,7 +22,7 @@ To view or modify the project locally, follow these steps:
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd code-cafe
+    cd code-cafe-landing-page
     ```
 3. **Open the `index.html` file in your browser** to see the landing page.
 
