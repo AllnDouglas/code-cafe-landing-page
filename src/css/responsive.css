@@ -1,138 +1,110 @@
-@media (max-width: 992px){
-    
-   .secao-com-texto{
-      padding: 153px 25px;
-   }
-
-   
-   .secao-com-texto p,
-   .secao-com-texto.onde-estamos p{
-      width: 100%;
-      
+/* Breakpoint para telas menores que 992px */
+@media (max-width: 992px) {
+    .secao-com-texto {
+        padding: 153px 25px;
     }
-
+    .secao-com-texto p,
+    .secao-com-texto.onde-estamos p {
+        width: 100%;
+    }
 }
 
-@media (max-width: 768px){
-   .contato{
-      background-image: none;
-      background-color:#D3AE71;
+/* Breakpoint para telas menores que 768px */
+@media (max-width: 768px) {
+    .contato {
+        background-image: none;
+        background-color: #D3AE71;
+    }
+    .contato .texto {
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+    }
+    .contato h2 {
+        margin-bottom: 53px;
+    }
+}
 
-      }
-   .contato .texto{
-      position: relative;
-      text-align: center;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%);
-   }
-   .contato h2{
-      margin-bottom: 53px;
-   }
-   
- }
-
-
-
-
-@media (max-width: 720px){
-
-   .cabecalho .logo{
-      display: block;
-      margin: 0 auto;
-  
-   }
-     .cabecalho nav{
+/* Breakpoint para telas menores que 720px */
+@media (max-width: 720px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .cabecalho nav {
         position: static;
         text-align: center;
         width: 100%;
-     }
-
-     .cabecalho ul{
-      margin-top: 52px;
-
-     }
-     .cabecalho nav ul li {
+    }
+    .cabecalho ul {
+        margin-top: 52px;
+    }
+    .cabecalho nav ul li {
         display: block;
-     }
-     .cabecalho nav ul li a{
+    }
+    .cabecalho nav ul li a {
         font-size: 2rem;
         font-weight: 400;
         display: block;
         width: 100%;
-     }
-
-
-   .ladrilho .grande, .ladrilho .medio{
-      width: 100%;
-   }
-
-   .ladrilho .pequeno,
-   .ladrilho .pequeno.grao{
-      width: 50%;
-   }
-
-
-   .rodape{
-      text-align: center;
-      background-image: none;
-      background-color: black;
-   }
-   .rodape .logo{
-      display: block;
-      margin-bottom: 122px;
-   }
-
-   .rodape ul{
-      display: block;
-      width: 100%;
-      margin-bottom: 122px;
-   }
-
-   .rodape ul li{
-      display: block;
-      width: 100%;
-      margin-bottom: 28px;
-   }
-
-   .rodape ul li a{
-      font-size: 2rem;
-
-   }
-
-   .rodape .redes-socias{
-      float: none;
-      margin-bottom: 28px;
-   }
-   
- 
+    }
+    .ladrilho .grande, .ladrilho .medio {
+        width: 100%;
+    }
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 50%;
+    }
+    .rodape {
+        text-align: center;
+        background-image: none;
+        background-color: black;
+    }
+    .rodape .logo {
+        display: block;
+        margin-bottom: 122px;
+    }
+    .rodape ul {
+        display: block;
+        width: 100%;
+        margin-bottom: 122px;
+    }
+    .rodape ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 28px;
+    }
+    .rodape ul li a {
+        font-size: 2rem;
+    }
+    .rodape .redes-socias {
+        float: none;
+        margin-bottom: 28px;
+    }
 }
 
-@media (max-width: 425px){
- 
-   
-   .painel h2{
-      font-size: 2.5rem;
-   }
-
-   .secao-com-texto h2,
-      .secao-com-texto.onde-estamos h2{
-         font-size: 3rem;
-      }
-
-      .secao-com-texto.onde-estamos p{
-         font-size: 2rem;
-      }
-
+/* Breakpoint para telas menores que 425px */
+@media (max-width: 425px) {
+    .painel h2 {
+        font-size: 2.5rem;
+    }
+    .secao-com-texto h2,
+    .secao-com-texto.onde-estamos h2 {
+        font-size: 3rem;
+    }
+    .secao-com-texto.onde-estamos p {
+        font-size: 2rem;
+    }
 }
 
-@media (max-width: 375px){
-   .ladrilho .grande,
-   .ladrilho .pequeno.grao,
-   .ladrilho .pequeno,
-   .ladrilho .medio{
-      width: 100%;
-   }
+/* Breakpoint para telas menores que 375px */
+@media (max-width: 375px) {
+    .ladrilho .grande,
+    .ladrilho .pequeno.grao,
+    .ladrilho .pequeno,
+    .ladrilho .medio {
+        width: 100%;
+    }
 }
-
-
