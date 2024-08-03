@@ -36,6 +36,26 @@
 
 
 @media (max-width: 720px){
+
+.cabecalho .logo{
+    display: block;
+    margin: 0 auto;
+
+ }
+   .cabecalho nav{
+      position: static;
+      text-align: center;
+      width: 100%;
+   }
+   .cabecalho nav ul li {
+      display: block;
+   }
+   .cabecalho nav ul li a{
+      display: block;
+      width: 100%;
+   }
+
+    
    .ladrilho .grande, .ladrilho .medio{
       width: 100%;
    }
@@ -83,23 +103,7 @@
 
 @media (max-width: 425px){
  
-   .cabecalho .logo{
-    display: block;
-    margin: 0 auto;
 
- }
-   .cabecalho nav{
-      position: static;
-      text-align: center;
-      width: 100%;
-   }
-   .cabecalho nav ul li {
-      display: block;
-   }
-   .cabecalho nav ul li a{
-      display: block;
-      width: 100%;
-   }
    .painel h2{
       font-size: 2.5rem;
    }
